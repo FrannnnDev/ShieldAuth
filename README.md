@@ -13,21 +13,21 @@ Compatible with **Spigot**, **Paper** and forks from version **1.16.5 to 1.21**.
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 Authentication
+### Authentication
 - Password-based authentication (`/register` and `/login`)
 - Configurable password requirements (min/max: 6-32 by default)
 - Multiple encryption algorithms: **ARGON2** (recommended), **BCRYPT**, **SHA256**, **SHA512**
 - Configurable session system (remember login) - Disabled by default
 
-### 🔢 PIN System
+### PIN System
 - GUI-based PIN entry with clickable number heads
 - Configurable PIN length (default: 4 digits)
 - Extra security layer after password authentication
 - Brute force protection with rate limiting
 
-### 🚫 Rate Limiting & Temporary IP Blocking
+### Rate Limiting & Temporary IP Blocking
 - **Per-account** login attempt limiting
 - **Per-account** PIN attempt limiting
 - **Per-IP** login attempt limiting (protects against distributed attacks)
@@ -37,35 +37,35 @@ Compatible with **Spigot**, **Paper** and forks from version **1.16.5 to 1.21**.
 - Automatic unlock after timeout
 - **Configurable kick on block** - Enable/disable kicking when blocked (enabled by default)
 
-### ⏰ Authentication Timeouts
+### Authentication Timeouts
 - **Auto-kick** if player doesn't register in time
 - **Auto-kick** if player doesn't login in time
 - **Auto-kick** if player doesn't enter PIN in time
 - Fully configurable times
 - Customizable kick messages
 
-### 🔄 Update Checker
+### Update Checker
 - Automatically checks for new versions on GitHub
 - Displays console message if update is available
 - Configurable (enable/disable)
 - Customizable GitHub URL
 
-### 💾 Database
+### Database
 - **SQLite** (local) - Zero configuration required
 - **MySQL** (cloud) - For networks and multiple servers
 - HikariCP connection pooling for optimal performance
 
-### 🔔 Notifications
+### Notifications
 - **Discord Webhooks** - Get notified of logins/registrations
 - Customizable embed colors (RGB)
 - IP spoiler protection in Discord
 
-### 📧 Email Verification
+### Email Verification
 - SMTP email support (Gmail, custom SMTP)
 - Verification codes
 - Recovery options
 
-### 🎨 Customization
+### Customization
 - **ALL messages configurable** in config.yml
 - Title messages with fade effects
 - Custom command aliases
@@ -73,7 +73,7 @@ Compatible with **Spigot**, **Paper** and forks from version **1.16.5 to 1.21**.
 
 ---
 
-## 📋 Commands
+## Commands
 
 ### User Commands
 
@@ -108,7 +108,7 @@ Compatible with **Spigot**, **Paper** and forks from version **1.16.5 to 1.21**.
 
 ---
 
-## 🔑 Permissions
+## Permissions
 
 | Permission | Description | Default |
 |------------|-------------|---------|
@@ -124,7 +124,7 @@ Compatible with **Spigot**, **Paper** and forks from version **1.16.5 to 1.21**.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Database
 
@@ -283,7 +283,7 @@ messages:
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
 ### Multi-Layer Protection
 
@@ -320,7 +320,7 @@ messages:
 
 ---
 
-## 🔄 Authentication Flow
+## Authentication Flow
 
 ```
 Player tries to connect
@@ -390,7 +390,7 @@ Failed Login/PIN Attempt
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Download `ShieldAuth-1.0.0.jar`
 2. Place it in your server's `plugins` folder
@@ -400,7 +400,7 @@ Failed Login/PIN Attempt
 
 ---
 
-## 🔨 Building from Source
+## Building from Source
 
 ### Requirements
 - Java 21 JDK
@@ -418,7 +418,7 @@ The compiled JAR will be in the `target` folder.
 
 ---
 
-## 📊 Dependencies
+## Dependencies
 
 | Library | Version | Purpose |
 |---------|---------|---------|
@@ -431,7 +431,7 @@ The compiled JAR will be in the `target` folder.
 
 ---
 
-## 📝 All Configurable Messages
+## All Configurable Messages
 
 The plugin includes **65+ configurable messages** including:
 
@@ -451,7 +451,7 @@ All messages support color codes (`&a`, `&c`, `&l`, etc.) and placeholders (`{ti
 
 ---
 
-## 📜 License
+## License
 
 All Rights Reserved © 2026
 
